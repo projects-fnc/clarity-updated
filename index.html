@@ -4,247 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clariti Scanworld | Perumbavoor's Only MRI Centre</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Spartan:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- External CSS -->
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <!-- Header & Navigation -->
-    <header id="header">
-        <div class="container header-container">
-            <div class="logo">
-                <div class="logo-img">
-                    <img src="images/logo.png" alt="Clariti Scanworld Logo">
-                </div>
-            </div>
-            
-            <div class="mobile-toggle" id="mobile-toggle">
-                <i class="bi bi-list"></i>
-            </div>
-            
-            <nav id="main-nav">
-                <ul>
-                    <li><a href="index.html" class="nav-link active">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About Us</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="instructions.html" class="nav-link">Patient Instructions</a></li>
-                    <li><a href="booking.html" class="nav-link">Book Now</a></li>
-                    <li><a href="https://wa.me/919074389847" class="btn btn-whatsapp" target="_blank"><i class="bi bi-whatsapp"></i> Book on WhatsApp</a></li>
-                </ul>
-            </nav>
+
+<!-- ================= HEADER ================= -->
+<header id="header">
+    <div class="container header-container">
+
+        <div class="logo">
+            <img src="images/logo.png" alt="Clariti Scanworld Logo">
         </div>
-    </header>
 
-    <!-- Home Page Content -->
-    <section class="page-section active">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-background">
-               <img src="images/hero_image.png" alt="Clariti Scanworld - Perumbavoor's Only MRI Centre">
-            </div>
-            <div class="hero-overlay">
-                <div class="container">
-                    <div class="hero-content-inner">
-                        <h1>Perumbavoor's Only MRI Centre</h1>
-                        <p>• 1.5 Tesla MRI • 4D Ultrasound • Fetal Medicine • LAB • NCS • EEG</p>
-                        <p><strong>Mon–Sat | 8:30 AM – 6:30 PM</strong></p>
-                        <div class="hero-content-btns">
-                            <a href="https://wa.me/919074389847" class="btn btn-outline" target="_blank">Book On Whatsapp</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Preview -->
-        <section class="section about">
-            <div class="container">
-                <div class="section-header">
-                    <h2>About Us</h2>
-                </div>
-                
-                <div class="about-content">
-                    <div>
-                        <p>At Clariti Scan World, we bring world-class diagnostic care to the heart of Perumbavoor. As the region's only centre equipped with a 1.5 Tesla MRI scanner - along with advanced ultrasound and comprehensive laboratory services - we're committed to delivering fast, accurate, and compassionate care, every single day.</p>
-                        
-                        <div class="about-features">
-                            <div class="about-feature">
-                                <h4>First MRI in Perumbavoor</h4>
-                                <p>Only high strength MRI centre in Perumbavoor with 1.5T GE MRI scanner.</p>
-                            </div>
-                            <div class="about-feature">
-                                <h4>Premium Experience</h4>
-                                <p>Modern interiors, calming ambience, and well-planned spaces for stress-free diagnostics.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="about-image">
-                        <img src="images/about_2.png" alt="Clariti Scanworld Facility">
-                    </div>
-                    <div class="text-left" style="margin-top: var(--spacing-xl);">
-                        <a href="about.html" class="btn">About Us</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Preview -->
-        <section class="section services">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Our Services</h2>
-                </div>
-                
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-img">
-                            <img src="images/service/mri.jpg" alt="MRI Scan">
-                        </div>
-                        <div class="service-content">
-                            <h3>1.5 Tesla MRI</h3>
-                            <p>High-definition imaging for confident diagnosis</p>
-                        </div>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-img">
-                            <img src="images/service/service2.avif" alt="Ultrasound">
-                        </div>
-                        <div class="service-content">
-                            <h3>Advanced Ultrasound</h3>
-                            <p>Safe, detailed scans for every stage of life</p>
-                        </div>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-img">
-                            <img src="images/service/service3.avif" alt="Fetal Medicine">
-                        </div>
-                        <div class="service-content">
-                            <h3>Fetal Medicine</h3>
-                            <p>Expert care for expecting mothers</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="text-left" style="margin-top: var(--spacing-xl);">
-                    <a href="services.html" class="btn">View All Services</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Meet Our Doctors Preview -->
-        <section class="section services doctors">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Meet Our Doctors</h2>
-                    <p style="max-width:700px;margin:0 auto;">
-                        Our specialists are here not just to scan — but to care.
-                    </p>
-                </div>
-
-                <div class="services-grid">
-                    <div class="service-card doctor-card">
-                        <div class="service-img">
-                            <img src="images/doctors/Roshan.jpg" alt="Dr. Roshan K Valsan">
-                        </div>
-                        <div class="service-content">
-                            <h3>Dr. Roshan K Valsan</h3>
-                            <p>MBBS, MD Radiodiagnosis</p>
-                        </div>
-                    </div>
-
-                    <div class="service-card doctor-card">
-                        <div class="service-img">
-                            <img src="images/doctors/Kushal.jpg" alt="Dr. Kushal Gupta">
-                        </div>
-                        <div class="service-content">
-                            <h3>Dr. Kushal Gupta</h3>
-                            <p>MBBS, MD Radiodiagnosis</p>
-                        </div>
-                    </div>
-
-                    <div class="service-card doctor-card">
-                        <div class="service-img">
-                            <img src="images/doctors/Hrishikesh.jpg" alt="Dr. Hrishikesh V J">
-                        </div>
-                        <div class="service-content">
-                            <h3>Dr. Hrishikesh V J</h3>
-                            <p>MBBS, MD Radiodiagnosis</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="text-left" style="margin-top: var(--spacing-xl);">
-                    <a href="about.html#doctors" class="btn">Our Doctors</a>
-                </div>
-            </div>
-        </section>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-about">
-                    <div class="footer-logo">
-                        <div class="logo-text">Clariti <span>Scanworld</span></div>
-                    </div>
-                    <p>Perumbavoor's only diagnostic centre with 1.5 Tesla MRI, advanced ultrasound, and comprehensive laboratory services.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                        <a href="https://wa.me/919074389847" class="social-link" target="_blank"><i class="bi bi-whatsapp"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="instructions.html">Patient Instructions</a></li>
-                        <li><a href="booking.html">Book Now</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-links">
-                    <h3>Our Services</h3>
-                    <ul>
-                        <li><a href="services.html#mri">1.5 Tesla MRI</a></li>
-                        <li><a href="services.html#ultrasound">Advanced Ultrasound</a></li>
-                        <li><a href="services.html#fetal">Fetal Medicine</a></li>
-                        <li><a href="services.html#lab">Laboratory Services</a></li>
-                        <li><a href="services.html#ncs">NCS & EEG</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-links">
-                    <h3>Contact Info</h3>
-                    <ul>
-                        <li><i class="bi bi-geo-alt" style="margin-right: 8px; color: var(--accent);"></i> UBI Road, Perumbavoor</li>
-                        <li><i class="bi bi-telephone" style="margin-right: 8px; color: var(--accent);"></i> 9074389847</li>
-                        <li><i class="bi bi-telephone" style="margin-right: 8px; color: var(--accent);"></i> 8848189847</li>
-                        <li><i class="bi bi-envelope" style="margin-right: 8px; color: var(--accent);"></i> info@claritscanworld.com</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="copyright">
-                <p>&copy; 2023 Clariti Scanworld. All rights reserved.</p>
-            </div>
+        <div class="mobile-toggle" id="mobile-toggle">
+            <i class="bi bi-list"></i>
         </div>
-    </footer>
 
-    <script src="js/script.js"></script>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="instructions.html" class="nav-link">Patient Instructions</a></li>
+                <li><a href="booking.html" class="nav-link">Book Now</a></li>
+                <li>
+                    <a href="https://wa.me/919074389847"
+                       class="btn btn-whatsapp" target="_blank">
+                       <i class="bi bi-whatsapp"></i> Book on WhatsApp
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <div class="hero-background">
+        <img src="images/hero_image.png" alt="MRI Centre">
+    </div>
+
+    <div class="hero-overlay">
+        <div class="container hero-content-inner">
+            <h1>Perumbavoor's Only MRI Centre</h1>
+            <p>• 1.5 Tesla MRI • 4D Ultrasound • Fetal Medicine • LAB • NCS • EEG</p>
+            <p><strong>Mon–Sat | 8:30 AM – 6:30 PM</strong></p>
+
+            <a href="https://wa.me/919074389847"
+               class="btn btn-outline" target="_blank">
+               Book On Whatsapp
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- (Keep remaining sections SAME as your file — About, Services, Doctors, Footer) -->
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Clariti Scanworld. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Main JS -->
+<script src="js/script.js"></script>
+
 </body>
 </html>
